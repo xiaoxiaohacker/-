@@ -3,7 +3,7 @@ void main()
 {
 	int a[10],i;
 	int max,min;
-	printf("ÇëÊäÈëÊ®¸öÆÀÎ¯µÄ´ò·Ö£º\n");
+	printf("è¯·è¾“å…¥åä¸ªè¯„å§”çš„æ‰“åˆ†ï¼š\n");
 	for(i=0;i<10;i++)
 		scanf("%d",&a[i]);
 	max=min=a[0];
@@ -14,5 +14,5 @@ void main()
 		if(a[i]<min)
 			min=a[i];
 	}
-	printf("×î¸ß·ÖÎª£º%d;×îµÍ·ÖÎª:%d",max,min);
+	printf("æœ€é«˜åˆ†ä¸ºï¼š%d;æœ€ä½åˆ†ä¸º:%d",max,min);
 }
