@@ -6,7 +6,7 @@ void main()
 	printf("请输入一个正整形数:\n");
 	scanf("%d",&n);
 	m=fun(n);
-	printf("%d!=%d\n",n,m);
+	printf("%d!=%d\n",n,m);//阶乘
 }
 int fun(int n)
 { 
